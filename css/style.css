@@ -1,0 +1,180 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+img{max-width: 100%;}
+
+
+/*layout*/
+
+
+.o-s{
+  overflow-y: scroll;
+}
+
+.container{
+  width: 80%;
+  margin:20px auto;
+  height: 100%;
+  
+}
+
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.col{}
+
+
+.d-flex{display: flex;}
+
+.f-c{flex-direction: column;}
+
+.j-l{justify-content: left;}
+
+.j-c{justify-content: center;}
+
+.j-r{justify-content: right;}
+
+.j-s-b{justify-content: space-between;}
+
+.a-i-s{align-items:start ;}
+
+.a-i-c{align-items: center;}
+
+.a.i-e{align-items: end;}
+
+.f-n-w{flex-wrap: nowrap;}
+
+/*positions*/
+
+.p-r{position: relative;}
+
+.p-a{position: absolute;}
+
+/*sizes*/
+
+
+.w-100{width: 100%;}
+
+.w-90{width:90%}
+
+.w-70{width:70%}
+
+.w-30{width: 30%;}
+
+.w-10{width: 10%;}
+
+.w-80{width:80px}
+
+
+.h-565{height:565px ;}
+
+.h-80{height: 80px;}
+
+.h-70{height:70px}
+
+.h-50{height: 50px;}
+
+
+.p-7{padding: 7px;}
+
+.p-10-20{padding: 10px 20px;}
+
+
+.p-l-93{padding-left: 93px;}
+
+.p-l-43{padding-left: 43px;}
+
+.p-l-25{padding-left: 25px;}
+
+.p-l-20{padding-left: 20px;}
+
+.p-l-16{padding-left: 16px;}
+
+.p-l-15{padding-left: 15px;}
+
+
+.p-r-93{padding-right: 93px;}
+
+.p-r-43{padding-right: 43px;}
+
+.p-r-30{padding-right: 30px;}
+
+.p-r-25{padding-right: 25px;}
+
+.p-r-20{padding-right: 20px;}
+
+.p-r-15{padding-right: 15px;}
+
+.p-r-5{padding-right: 5px;}
+
+
+.p-t-191{padding-top: 191px;}
+
+.p-t-48{padding-top: 48px;}
+
+.p-t-30{padding-top: 30px;}
+
+.p-t-19{padding-top: 19px;}
+
+.p-t-10{padding-top: 10px;}
+
+
+.p-b-40{padding-bottom: 40px;}
+
+.p-b-10{padding-bottom: 10px;}
+
+
+.m-a{margin: auto;}
+
+.m-r-20{margin-right: 20px;}
+
+.m-b-10{margin-bottom: 10px;}
+
+/*colors*/
+
+
+.bg-green{background-color: #009688;}
+
+.bg-grey{background-color: #dcdbd2;}
+
+.grey-icons{color: #b1b1b1;}
+
+.grey-not{color: #4f7485;}
+
+.grey-search-icon{color: #b6b9bb;}
+
+.grey-search-text{color: #d7d8da}
+
+.grey-search-bg{background-color: #fafafa;}
+
+.grey-board-{color: #f5f5f5;}
+
+.grey-text-user{color: #b6b9bb}
+
+.grey-scroll{color: #c2c2c2;}
+
+.grey-top-bars{background-color: #eaeaea;}
+
+.dark-grey{color:#6b7376}
+
+.beige{background-color: #f3eeea;}
+
+.light-blue{background-color: #8edafc;}
+
+.light-green{background-color: #d5f9ba;}
+
+
+.debug{
+  background-color: purple;
+  border: solid peru 1px;
+
+}
