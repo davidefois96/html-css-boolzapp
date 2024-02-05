@@ -1,3 +1,3 @@
 HTML-CSS-BOOLZAP
 
-Materiale concernente la consegna di oggi.
+Materiale concernente la consegna di oggi .
