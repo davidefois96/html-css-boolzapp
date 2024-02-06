@@ -353,12 +353,18 @@ div.h-scroll2{
  .h-scroll{height: calc(100% - 70px) ;}
 
  
- 
  .row.res-st{padding-left: 20px;}
 
  
  .row.res-nd{padding-left: 15px;}
+
+ .row.h-scroll2{padding: 50px 43px 0 43px;}
+
+ .div.m-w-435{max-width: 457px;}
+
+
 }
+
 
 @media screen and (max-width:542px){
 
@@ -368,7 +374,11 @@ div.h-scroll2{
 
   main > .col:last-child{width:100%}
 
+  
+  .row.h-scroll2{padding: 30px 25px 0 25px;}
 
+  
+  .div.m-w-435{max-width: 355px;}
 }
 
 
