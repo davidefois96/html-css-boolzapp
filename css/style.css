@@ -343,17 +343,21 @@ div.h-scroll2{
     margin: 0;
   }
   
-  main > .col:first-child{width: 10%;}
+  main > .col:first-child{width: 90px;}
 
   
-  main > .col:first-child > .row:nth-child(2) ,  main > .col:first-child > .row:nth-child(3) {display: none;}
+  main > .col:first-child > .row:nth-child(2) ,  main > .col:first-child > .row:nth-child(3) , .disap {display: none;}
 
   main > .col:last-child{width:90%}
 
-  .h-scroll{height: calc(100% - 70px) ;}
+ .h-scroll{height: calc(100% - 70px) ;}
 
+ 
+ 
+ .row.res-st{padding-left: 20px;}
 
-
+ 
+ .row.res-nd{padding-left: 15px;}
 }
 
 @media screen and (max-width:542px){
