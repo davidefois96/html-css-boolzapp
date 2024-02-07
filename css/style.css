@@ -21,9 +21,14 @@ body{
 
 img{max-width: 100%;}
 
-i:hover,a:hover{color: #009688;}
+i:hover,a,.app a:hover{color: #009688;}
 i.t{font-size: 1.3rem;}
 i.b{font-size: 1.5rem;}
+
+.app a{
+  text-decoration: none;
+  color: black;
+}
 
 .circle-box{
   height: 50px;
@@ -81,7 +86,7 @@ div.h-scroll2{background-image: url("../assets/img/mine.jpg");}
 }
 .p-a-3{
   position: absolute;
-  top: 40px;
+  top: 38px;
   right:18px;
   height: 60px;
   width: 150px;
@@ -109,6 +114,7 @@ div.h-scroll2{background-image: url("../assets/img/mine.jpg");}
 .h-scroll{height: calc(100% - 200px) ;}
 .h-scroll2{height: calc(100% - 140px);}
 
+.h-100{height: 100%;}
 .h-80{height: 80px;}
 .h-70{height:70px}
 .h-50{height: 50px;}
